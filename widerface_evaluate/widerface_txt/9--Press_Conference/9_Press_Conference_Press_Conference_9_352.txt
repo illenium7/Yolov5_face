@@ -1,0 +1,4 @@
+9_Press_Conference_Press_Conference_9_352
+2
+175 376 548 722 0.873
+666 1275 358 265 0.028

@@ -1,0 +1,5 @@
+29_Students_Schoolkids_Students_Schoolkids_29_74
+3
+586 247 220 247 0.872
+278 262 188 210 0.836
+1000 26 18 32 0.033

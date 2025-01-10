@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_matadorbullfighting_47_177
+3
+225 80 21 26 0.696
+473 278 27 33 0.319
+501 280 33 29 0.038

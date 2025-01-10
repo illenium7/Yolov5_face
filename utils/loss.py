@@ -199,7 +199,7 @@ def build_targets(p, targets, model):
     na, nt = det.na, targets.shape[0]  # number of anchors, targets
     tcls, tbox, indices, anch, landmarks, lmks_mask = [], [], [], [], [], []
     #gain = torch.ones(7, device=targets.device)  # normalized to gridspace gain
-    gain = torch.ones(17, device=targets.device)
+    gain = torch.ones(17, device=targets.device).long()
     ai = torch.arange(na, device=targets.device).float().view(na, 1).repeat(1, nt)  # same as .repeat_interleave(nt)
     targets = torch.cat((targets.repeat(na, 1, 1), ai[:, :, None]), 2)  # append anchor indices
 

@@ -4,6 +4,11 @@ author: wondervictor
 mail: tianhengcheng@gmail.com
 copyright@wondervictor
 """
+import sys
+print(sys.path)
+
+# 添加生成的 .so 文件所在的目录到 sys.path
+sys.path.append('/home/yantao/yolov5/yolov5-face/widerface_evaluate')
 
 import os
 import tqdm

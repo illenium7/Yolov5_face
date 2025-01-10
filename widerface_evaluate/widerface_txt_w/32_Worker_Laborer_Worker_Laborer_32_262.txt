@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_262
+1
+393 397 154 214 0.853

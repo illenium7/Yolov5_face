@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_matadorbullfighting_47_657
+3
+268 97 97 130 0.878
+132 182 86 107 0.813
+0 193 27 68 0.041

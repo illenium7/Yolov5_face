@@ -1,0 +1,4 @@
+36_Football_americanfootball_ball_36_25
+2
+566 83 73 85 0.816
+358 117 55 91 0.680

@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_282
+2
+12 261 160 213 0.877
+315 223 174 214 0.838

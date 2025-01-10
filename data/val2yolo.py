@@ -30,13 +30,16 @@ def convert(size, box):
 
 def wider2face(root, phase='val', ignore_small=0):
     data = {}
-    with open('{}/{}/label.txt'.format(root, phase), 'r') as f:
+    with open('{}/label.txt'.format(root, phase), 'r') as f:
         lines = f.readlines()
         for line in tqdm(lines):
             line = line.strip()
             if '#' in line:
-                path = '{}/{}/images/{}'.format(root, phase, line.split()[-1])
+                path = '{}/images/{}'.format(root, line.split()[-1])
                 img = cv2.imread(path)
+                if img is None:
+                    print(f'Warning: could not read image {path}')
+                    continue
                 height, width, _ = img.shape
                 data[path] = list()
             else:
@@ -61,7 +64,9 @@ if __name__ == '__main__':
         exit(1)
 
     root_path = sys.argv[1]
-    if not os.path.isfile(os.path.join(root_path, 'val', 'label.txt')):
+    label_path = os.path.join(root_path, 'label.txt')
+    print(f'Checking for label file at: {label_path}')  # 添加调试信息
+    if not os.path.isfile(label_path):
         print('Missing label.txt file.')
         exit(1)
 

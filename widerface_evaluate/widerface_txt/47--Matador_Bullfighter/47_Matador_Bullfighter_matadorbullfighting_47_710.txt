@@ -1,0 +1,4 @@
+47_Matador_Bullfighter_matadorbullfighting_47_710
+2
+512 333 55 65 0.732
+674 116 14 14 0.024

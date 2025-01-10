@@ -103,6 +103,7 @@ def detection_collate(batch):
 
 
 if __name__ == '__main__':
+    print("Script started")
     if len(sys.argv) == 1:
         print('Missing path to WIDERFACE train folder.')
         print('Run command: python3 train2yolo.py /path/to/original/widerface/train [/path/to/save/widerface/train]')
@@ -112,6 +113,7 @@ if __name__ == '__main__':
         print('Run command: python3 train2yolo.py /path/to/original/widerface/train [/path/to/save/widerface/train]')
         exit(1)
     original_path = sys.argv[1]
+    print(f"Original path: {original_path}")  # 添加调试信息
 
     if len(sys.argv) == 2:
         if not os.path.isdir('widerface'):
@@ -122,13 +124,25 @@ if __name__ == '__main__':
         save_path = 'widerface/train'
     else:
         save_path = sys.argv[2]
+    print(f"Save path: {save_path}")  # 添加调试信息
 
-    if not os.path.isfile(os.path.join(original_path, 'label.txt')):
+    label_file = os.path.join(original_path, 'label.txt')
+    if not os.path.isfile(label_file):
         print('Missing label.txt file.')
         exit(1)
 
-    aa = WiderFaceDetection(os.path.join(original_path, 'label.txt'))
+    print(f"Label file found: {label_file}")
 
+
+    
+    aa = WiderFaceDetection(os.path.join(original_path, 'label.txt'))
+    print("WiderFaceDetection instance created")
+
+    # Add more debug information to ensure the conversion process is running
+    print("Starting conversion process...")
+    
+
+    print(aa.imgs_path)
     for i in range(len(aa.imgs_path)):
         print(i, aa.imgs_path[i])
         img = cv2.imread(aa.imgs_path[i])

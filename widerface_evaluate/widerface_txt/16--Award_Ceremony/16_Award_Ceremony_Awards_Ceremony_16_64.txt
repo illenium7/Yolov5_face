@@ -1,0 +1,4 @@
+16_Award_Ceremony_Awards_Ceremony_16_64
+2
+426 198 232 327 0.887
+59 1147 35 39 0.109

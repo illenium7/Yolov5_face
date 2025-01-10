@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_316
+3
+453 259 174 224 0.856
+100 103 118 157 0.809
+791 132 113 143 0.779

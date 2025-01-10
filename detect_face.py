@@ -160,6 +160,8 @@ def detect(
             p = Path(p)  # to Path
             save_path = str(Path(save_dir) / p.name)  # im.jpg
 
+
+            print("Processing detections...")
             if len(det):
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_coords(img.shape[2:], det[:, :4], im0.shape).round()
@@ -177,7 +179,10 @@ def detect(
                     class_num = det[j, 15].cpu().numpy()
                     
                     im0 = show_results(im0, xyxy, conf, landmarks, class_num)
-            
+                print(f"Saving result to {save_path}")
+                cv2.imwrite(save_path, im0)
+            else:
+                print("No detections found.")
             if view_img:
                 cv2.imshow('result', im0)
                 k = cv2.waitKey(1)
@@ -185,6 +190,7 @@ def detect(
             # Save results (image with detections)
             if save_img:
                 if dataset.mode == 'image':
+                    print(f"Saving result to {save_path}")
                     cv2.imwrite(save_path, im0)
                 else:  # 'video' or 'stream'
                     if vid_path[i] != save_path:  # new video

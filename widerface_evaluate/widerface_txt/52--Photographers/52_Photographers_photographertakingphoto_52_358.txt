@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_358
+3
+408 192 108 137 0.749
+558 233 53 72 0.361
+588 263 38 52 0.097

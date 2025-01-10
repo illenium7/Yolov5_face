@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_780
+3
+754 278 70 106 0.794
+365 264 52 81 0.187
+313 190 32 51 0.029

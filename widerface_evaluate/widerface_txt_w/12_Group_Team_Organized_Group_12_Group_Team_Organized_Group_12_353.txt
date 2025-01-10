@@ -1,0 +1,5 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_353
+3
+424 0 448 450 0.762
+488 830 153 227 0.079
+40 1081 249 313 0.036

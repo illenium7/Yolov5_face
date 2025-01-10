@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_428
+2
+495 308 140 113 0.792
+1000 259 12 17 0.310

@@ -1,0 +1,4 @@
+47_Matador_Bullfighter_Matador_Bullfighter_47_588
+2
+615 110 48 53 0.753
+220 179 37 40 0.024

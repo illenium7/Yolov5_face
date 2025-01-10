@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_336
+2
+638 213 39 44 0.824
+85 227 39 47 0.799

@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_468
+1
+354 102 107 160 0.785

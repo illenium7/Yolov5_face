@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_529
+2
+283 141 169 238 0.849
+722 642 24 24 0.021

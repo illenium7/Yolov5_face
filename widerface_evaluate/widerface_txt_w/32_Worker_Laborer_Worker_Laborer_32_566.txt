@@ -1,0 +1,4 @@
+32_Worker_Laborer_Worker_Laborer_32_566
+2
+670 368 49 65 0.814
+105 458 9 10 0.032

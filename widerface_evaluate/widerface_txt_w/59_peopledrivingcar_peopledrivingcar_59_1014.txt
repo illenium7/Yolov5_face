@@ -1,0 +1,5 @@
+59_peopledrivingcar_peopledrivingcar_59_1014
+3
+64 37 28 35 0.740
+365 177 52 55 0.078
+45 162 27 25 0.033

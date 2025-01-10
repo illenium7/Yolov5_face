@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_125
+2
+826 145 41 74 0.504
+817 148 35 76 0.031

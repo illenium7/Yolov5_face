@@ -1,0 +1,3 @@
+35_Basketball_basketballgame_ball_35_429
+1
+424 219 243 333 0.883

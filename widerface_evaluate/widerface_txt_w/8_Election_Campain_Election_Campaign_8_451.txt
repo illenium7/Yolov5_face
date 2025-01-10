@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_451
+2
+431 128 232 292 0.855
+75 817 54 57 0.022
